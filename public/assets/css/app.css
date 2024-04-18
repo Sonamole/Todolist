@@ -1,0 +1,27 @@
+.gradient-custom {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100vh; /* Make body take up the entire viewport height */
+  background: linear-gradient(120deg, rgb(226, 207, 129), rgb(232, 139, 97));
+font-family: 'Times New Roman', Times, serif;
+  min-height: 100vh;
+color: black;
+  }
+  .text{
+    text-align: center;
+    color: rgb(3, 0, 0);
+    font-family: Georgia,Times, serif;
+    padding-top: 10px;
+  }
+
+  .hidden-edit-form {
+    display: none;
+}
+.show {
+  display: block !important; /* Override any other display properties */
+  opacity: 1; /* Ensure the form is fully visible */
+  
+}
+.login{
+  padding-top: 100px;
+}
